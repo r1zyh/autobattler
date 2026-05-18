@@ -1,0 +1,1 @@
+export const test = 'game-core works';

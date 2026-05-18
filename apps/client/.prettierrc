@@ -1,0 +1,29 @@
+{
+  "tabWidth": 4,
+  "printWidth": 120,
+  "semi": true,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "avoid",
+  "singleAttributePerLine": false,
+  "importOrder": [
+    "^[./]",
+    "^@/(.*)$",
+    "^@mantine/(.*)$",
+    "^@tabler/(.*)$",
+    "^@zustand/(.*)$",
+    "^@lucide/(.*)$",
+    "^@react-router/(.*)$",
+    "^@recharts/(.*)$",
+    "^@zod/(.*)$",
+    "^@dayjs/(.*)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
+
